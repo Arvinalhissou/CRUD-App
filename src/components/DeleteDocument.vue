@@ -7,8 +7,8 @@
 
         <router-link
           :to="{ name: 'update', params: { id: doc.key } }"
-          class="card-link btn btn-outline-primary"
-          >Edit Project</router-link
+          class="card-link btn btn-outline-info"
+          >Edit Document</router-link
         >
         <button
           @click.prevent="deleteDoc(doc.key)"
